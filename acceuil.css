@@ -3,6 +3,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Menu*/
+
 #menu {
     display: flex;
     justify-content: space-between;
@@ -43,6 +45,8 @@ a {
     border-bottom: 3px solid #2395e0;
 }
 
+/*Partie principale*/
+
 main {
     margin: 20px;
     display: flex;
@@ -76,9 +80,11 @@ main {
     margin-bottom: 30px;
 }
 
+/*Membre du groupe*/
+
 .member {
     width: 30%;
-    height: 300px;
+    height: 500px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
@@ -86,16 +92,74 @@ main {
 }
 
 .member img {
-    height: 200px;
+    height: 300px;
     width: 100%;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
+/*Footer*/
+
 footer {
-    background-color: #2395e0;
+    background-color: #0c82d1;
     text-align: center;
     padding: 20px;
+    color: #fff;
+}
+
+/*Contact*/
+#form-container h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+#contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #33adff;
+    gap: 20px;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+.form-label {
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+}
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    border: 0;
+}
+
+.form-control:focus {
+    border: 2px solid #08609b;
+    outline: 0;
+}
+
+.boutton {
+    background-color: #0c82d1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+}
+
+.boutton:hover {
+    background-color: #1077bb;
     color: #fff;
 }
