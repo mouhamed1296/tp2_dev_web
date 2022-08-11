@@ -11,7 +11,7 @@ body {
     align-items: center;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 #menu ul {
@@ -34,15 +34,20 @@ a {
 
 .link {
     font-size: large;
-    color: #2395e0;
-}
-
-.link:hover {
     font-weight: bold;
 }
 
 .link a:hover {
     border-bottom: 3px solid #2395e0;
+}
+
+.contact-link {
+    font-size: large;
+    font-weight: bold;
+    background-color: #2395e0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /*Partie principale*/
@@ -118,7 +123,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #33adff;
+    background-color: /*#33adff*/#d5dce6;
     gap: 20px;
     padding: 50px;
     margin: 50px;
