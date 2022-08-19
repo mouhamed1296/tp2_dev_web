@@ -1,0 +1,62 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 10px;
+}
+header{
+    border: 2px solid #000;
+    font-weight: bold;
+}
+header table tr td a{
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+}
+#informations{
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #000;
+    width: 39%;
+    padding-left: 10px;
+    text-align: center;
+}
+#formation{
+    border: 2px solid #000;
+    width: 60%;
+    margin-left: 40%;
+    padding-left: 10px;
+}
+#expérienceProfesionnele{
+    border: 2px solid #000;
+    width: 60%;
+    margin-left: 40%;
+    padding-left: 10px;
+}
+#centreDintéret{
+    border: 2px solid #000;
+    width: 60%;
+    margin-left: 40%;
+    padding-left: 10px;
+}
+#compétence{
+    border: 2px solid #000;
+    width: 60%;
+    margin-left: 40%;
+    padding-left: 10px;
+}
+#langues{
+    border: 2px solid #000;
+    width: 60%;
+    margin-left: 40%;
+}
+footer{
+    border: 2px solid #000;
+}
+img{
+    border-radius: 100%;
+    width: 40%;
+    height: 50%;
+}
